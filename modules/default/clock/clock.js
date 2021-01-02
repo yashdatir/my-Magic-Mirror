@@ -30,8 +30,8 @@ Module.register("clock", {
 
 		showSunTimes: false,
 		showMoonTimes: false,
-		lat: 47.630539,
-		lon: -122.344147
+		lat: 22.295748099999997,
+		lon: 73.161822
 	},
 	// Define required scripts.
 	getScripts: function () {

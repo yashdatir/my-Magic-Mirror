@@ -12,9 +12,9 @@ Module.register("weather", {
 		weatherProvider: "openweathermap",
 		roundTemp: false,
 		type: "current", // current, forecast, daily (equivalent to forecast), hourly (only with OpenWeatherMap /onecall endpoint)
-		lat: 0,
-		lon: 0,
-		location: false,
+		lat: 22.2957683,
+		lon: 73.161825,
+		location: true,
 		locationID: false,
 		units: config.units,
 		useKmh: false,

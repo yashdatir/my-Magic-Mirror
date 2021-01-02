@@ -9,12 +9,12 @@ Module.register("weatherforecast", {
 	defaults: {
 		location: false,
 		locationID: false,
-		lat: false,
-		lon: false,
+		lat: true,
+		lon: true,
 		appid: "",
 		units: config.units,
 		maxNumberOfDays: 7,
-		showRainAmount: false,
+		showRainAmount: true,
 		updateInterval: 10 * 60 * 1000, // every 10 minutes
 		animationSpeed: 1000,
 		timeFormat: config.timeFormat,
@@ -22,7 +22,7 @@ Module.register("weatherforecast", {
 		decimalSymbol: ".",
 		fade: true,
 		fadePoint: 0.25, // Start on 1/4th of the list.
-		colored: false,
+		colored: true,
 		scale: false,
 
 		initialLoadDelay: 2500, // 2.5 seconds delay. This delay is used to keep the OpenWeather API happy.

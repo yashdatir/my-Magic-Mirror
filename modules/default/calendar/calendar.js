@@ -43,7 +43,8 @@ Module.register("calendar", {
 		calendars: [
 			{
 				symbol: "calendar",
-				url: "https://www.calendarlabs.com/templates/ical/US-Holidays.ics"
+				url: "https://www.calendarlabs.com/ical-calendar/ics/33/India_Holidays.ics"
+				// url: "https://www.calendarlabs.com/templates/ical/US-Holidays.ics"
 			}
 		],
 		titleReplace: {

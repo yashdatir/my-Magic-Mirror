@@ -7,7 +7,7 @@
 Module.register("currentweather", {
 	// Default module config.
 	defaults: {
-		location: false,
+		location: true,
 		locationID: false,
 		appid: "",
 		units: config.units,
